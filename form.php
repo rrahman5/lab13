@@ -33,10 +33,13 @@ What can we do to fight global warming?
 What can You do to fight global warming?
 
 
-
 </p>
     
+<p>
+    Admin role intent:
 
+    Allow admin to see the submissions of the form 
+</p>
 
         
 
