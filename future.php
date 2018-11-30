@@ -9,54 +9,25 @@
 </head>
 
 	<body>
-    <? php include "inc/nav.inc"; ?>
    
-     
-    <h1> What is Global Warming</h1> 
-     
-        <div class="home-grid-container">
-        <div class="home-grid-item">
-            <h1> About</h1>
-            <p>
-            Glaciers are melting, sea levels are rising, cloud forests are dying, and wildlife is scrambling to keep pace. It's becoming clear that humans have caused most of the past century's warming by releasing heat-trapping gases as we power our modern lives. Called greenhouse gases, their levels are higher now than in the last 650,000 years.
-        We call the result global warming, but it is causing a set of changes to the Earth's climate, or long-term weather patterns, that varies from place to place. As the Earth spins each day, the new heat swirls with it, picking up moisture over the oceans, rising here, settling there. It's changing the rhythms of climate that all living things have come to rely upon. [Watch Polar Bears 101].
-        What will we do to slow this warming? How will we cope with the changes we've already set into motion? While we struggle to figure it all out, the face of the Earth as we know it—coasts, forests, farms and snow-capped mountains—hangs in the balance.
-                </p>
-        </div>
-        
+     <h1> The Future </h1>
+<p>
 
-        <div class = "home-grid-item">
-            <h1> History</h1>
-            <p>
-            The history of climate change science began in the early 19th century when ice ages and other natural changes in paleoclimate were first suspected and the natural greenhouse effect first identified.[64] In the late 19th century, scientists first argued that human emissions of greenhouse gases could change the climate. In the 1960s, the warming effect of carbon dioxide gas became increasingly convincing.[279] By the 1990s, as a result of improving fidelity of computer models and observational work confirming the Milankovitch theory of the ice ages, a consensus position formed: greenhouse gases were deeply involved in most climate changes and human caused emissions were bringing discernible global warming. Since the 1990s, scientific research on climate change has included multiple disciplines and has expanded.[280] Research during this period has been summarized in the Assessment Reports by the Intergovernmental Panel on Climate Change.
-            </p>
-        </div>
+Change will continue through this century and beyond
+
+Global climate is projected to continue to change over this century and beyond. The magnitude of climate change beyond the next few decades depends primarily on the amount of heat-trapping gases emitted globally, and how sensitive the Earth’s climate is to those emissions. 
+
+Temperatures will continue to rise
+
+Because human-induced warming is superimposed on a naturally varying climate, the temperature rise has not been, and will not be, uniform or smooth across the country or over time
+
+Frost-free season (and growing season) will lengthen
+The length of the frost-free season (and the corresponding growing season) has been increasing nationally since the 1980s, with the largest increases occurring in the western United States, affecting ecosystems and agriculture. Across the United States, the growing season is projected to continue to lengthen.
+
+</p>
 
 
-        <div class = "home-grid-item" id="join">
-                <h1> Interested in Entrepreneurship?</h1>
-                <h2> Lets get in touch!!!!</h2>
-                <form>
-                        First name:<br>
-                        <input type="text" name="firstname">
-                        <br>
-                        Last name:<br>
-                        <input type="text" name="lastname">
-                        <br>
-                        Email:<br>
-                        <input type="text" name="email">
-                        <br>
-                        <button> Join Newsletter </button>
-
-                 </form>
-
-
-            </div>
-    
-    </div>
-
-
-        <?php include "inc/footer.inc"; ?>
+<p>  link: https://climate.nasa.gov/effects/</p>
 
 
 	<script src="http://code.jquery.com/jquery.js"></script>

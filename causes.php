@@ -12,51 +12,44 @@
     <? php include "inc/nav.inc"; ?>
    
      
-    <h1> What is Global Warming</h1> 
+    <h1> Causes</h1> 
      
         <div class="home-grid-container">
-        <div class="home-grid-item">
-            <h1> About</h1>
-            <p>
-            Glaciers are melting, sea levels are rising, cloud forests are dying, and wildlife is scrambling to keep pace. It's becoming clear that humans have caused most of the past century's warming by releasing heat-trapping gases as we power our modern lives. Called greenhouse gases, their levels are higher now than in the last 650,000 years.
-        We call the result global warming, but it is causing a set of changes to the Earth's climate, or long-term weather patterns, that varies from place to place. As the Earth spins each day, the new heat swirls with it, picking up moisture over the oceans, rising here, settling there. It's changing the rhythms of climate that all living things have come to rely upon. [Watch Polar Bears 101].
-        What will we do to slow this warming? How will we cope with the changes we've already set into motion? While we struggle to figure it all out, the face of the Earth as we know it—coasts, forests, farms and snow-capped mountains—hangs in the balance.
-                </p>
-        </div>
+\            <h1> Causes </h1>
+         <p>
+         Burning fossil fuels
+
+When we burn fossil fuels like coal, and gas to create electricity or power our cars, we release CO2 pollution into the atmosphere.
+
+Australians are big producers of CO2 pollution compared to the rest of the world. Our level of CO2 pollution per person is nearly double the average of other developed nations and more than four times the world average.
+
+Electricity generation is the main cause of carbon pollution in Australia as 73% of our electricity comes from burning coal and 13% from burning gas. The remaining 14% comes from renewable energy sources such as hydro, solar and wind, which do not emit carbon. 
         
 
-        <div class = "home-grid-item">
-            <h1> History</h1>
-            <p>
-            The history of climate change science began in the early 19th century when ice ages and other natural changes in paleoclimate were first suspected and the natural greenhouse effect first identified.[64] In the late 19th century, scientists first argued that human emissions of greenhouse gases could change the climate. In the 1960s, the warming effect of carbon dioxide gas became increasingly convincing.[279] By the 1990s, as a result of improving fidelity of computer models and observational work confirming the Milankovitch theory of the ice ages, a consensus position formed: greenhouse gases were deeply involved in most climate changes and human caused emissions were bringing discernible global warming. Since the 1990s, scientific research on climate change has included multiple disciplines and has expanded.[280] Research during this period has been summarized in the Assessment Reports by the Intergovernmental Panel on Climate Change.
-            </p>
-        </div>
+Deforestation
+
+Plants play an important role in regulating the climate because they absorb carbon dioxide from the air and release oxygen back into it. Forests and bushland act as carbon sinks and are a valuable means of keeping global warming to 1.5°C.
+
+But humans clear vast areas of vegetation around the world for farming, urban and infrastructure development or to sell tree products such as timber and palm oil. When vegetation is removed or burnt, the stored carbon is released back into the atmosphere as CO2, contributing to global warming. Up to one-fifth of global greenhouse gas pollution comes from deforestation and forest degradation.
 
 
-        <div class = "home-grid-item" id="join">
-                <h1> Interested in Entrepreneurship?</h1>
-                <h2> Lets get in touch!!!!</h2>
-                <form>
-                        First name:<br>
-                        <input type="text" name="firstname">
-                        <br>
-                        Last name:<br>
-                        <input type="text" name="lastname">
-                        <br>
-                        Email:<br>
-                        <input type="text" name="email">
-                        <br>
-                        <button> Join Newsletter </button>
+Farming
 
-                 </form>
+Animals, livestock like sheep and cattle, produce methane, a greenhouse gas. When livestock grazed at a large scale, as in Australia, the amount of methane produced is a big contributor to global warming.
 
+Some that farmers use also release nitrous oxide, which is another greenhouse gas.
 
-            </div>
+</p>   
     
+<p> https://www.wwf.org.au/what-we-do/climate/causes-of-global-warming </p>
+</div>
+        
+
+
+
+       
     </div>
 
-
-        <?php include "inc/footer.inc"; ?>
 
 
 	<script src="http://code.jquery.com/jquery.js"></script>

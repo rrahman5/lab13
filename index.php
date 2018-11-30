@@ -34,7 +34,6 @@
 
 
         <div class = "home-grid-item" id="join">
-                <h1> Interested in Entrepreneurship?</h1>
                 <h2> Lets get in touch!!!!</h2>
                 <form>
                         First name:<br>
@@ -55,7 +54,7 @@
     
     </div>
 
-
+    <p>https://en.wikipedia.org/wiki/Global_warming#History</p>
 
 
 	<script src="http://code.jquery.com/jquery.js"></script>
