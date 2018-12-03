@@ -14,6 +14,10 @@
      
     <h1> What is Global Warming</h1> 
      
+     <a href="causes.php">Causes</a>
+     <a href="actions.php">Actions</a>
+     <a href="future.php">The Future of Planet Earth</a>
+
         <div class="home-grid-container">
         <div class="home-grid-item">
             <h1> About</h1>
