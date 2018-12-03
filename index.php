@@ -70,6 +70,8 @@ LED lightbulbs use up to 80 percent less energy than conventional incandescents.
                         Email:<br>
                         <input type="text" name="email">
                         <br>
+                        Where You Currently Live: <br>
+                        <input type="text" name="location">
                         <button> Join Newsletter </button>
 
                  </form>
