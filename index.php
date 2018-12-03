@@ -80,6 +80,7 @@ LED lightbulbs use up to 80 percent less energy than conventional incandescents.
     </div>
 
     <p>https://en.wikipedia.org/wiki/Global_warming#History</p>
+    <p>https://www.nrdc.org/stories/how-you-can-stop-global-warming</p>
 
 
 	<script src="http://code.jquery.com/jquery.js"></script>
