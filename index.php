@@ -9,10 +9,10 @@
 </head>
 
 	<body>
-    <? php include "inc/nav.inc"; ?>
-   
      
-    <h1> What is Global Warming</h1> 
+    <h1> What is Global Warming</h1>
+
+    <?php include 'inc/nav.inc';?>
      
      <li>
      	<ul>
