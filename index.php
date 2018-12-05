@@ -12,11 +12,8 @@
 
 	<body>
 
-		<div class="homeBanner">
-	        <header>
-	        	<img src="images/world.svg">
-	            <h1> What is Global Warming?</h1>
-	        </header>
+		<div class="banner">
+	        <?php include 'inc/header.inc';?>
 
 	        <?php include 'inc/nav.inc';?>
 	    </div>

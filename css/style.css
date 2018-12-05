@@ -10,7 +10,7 @@ body {
 	background-attachment: fixed;
 }
 
-h1, h2 {
+h1, h2, h3 {
 	margin: 0;
 	padding: 0;
 	font-family: 'Poller One', cursive;
@@ -20,7 +20,7 @@ h2 {
 	font-size: 2em;
 }
 
-p, a, li, label, button {
+p, a, li, label, button, #designSource {
 	font-family: 'Lato', sans-serif;
 }
 
@@ -31,7 +31,7 @@ p {
 }
 /*------------HEADER-----------------*/
 
-.homeBanner {
+.banner {
 	width: 100%;
 	position: sticky;
 	top: 0;
@@ -198,13 +198,18 @@ header img {
 
 }
 
+#help h2 {
+	margin: 0;
+	padding: 0;
+	color: #162E35;
+}
+
 #help ol {
 	padding: 2%;
-	border: solid black 1px;
 }
 #help li {
 	text-align: left;
-	margin: 1%;
+	margin: 3% 1% 1% 1%;
 	color: #162E35;
 
 	font-size: 1.25em;
@@ -285,4 +290,53 @@ header img {
 
 #join button:hover {
 	background-color: #b5f0da;
+}
+
+/*-------------FOOTER----------*/
+footer {
+	margin-top: 3%;
+	height: 30vh;
+	background-color: #162E35;
+}
+
+.footerBlock {
+	display: block;
+	text-align: center;
+	margin-top: 2%;
+	height: 65%;
+	color: #D2F4E7;
+}
+
+#infoSource {
+	width: 45%;
+	margin-left: 5%;
+	float: left;
+}
+
+.footerBlock div {
+	margin-top: 2%;
+}
+
+#designSource {
+	width: 40%;
+	margin-right: 5%;
+	float: right;
+}
+
+.footerBlock a {
+	color: #b5f0da;
+}
+
+.footerBlock a:hover {
+	color: #e8f9f3;
+}
+
+#teamNames {
+	clear: left;
+	height: 20%;
+	text-align: center;
+}
+
+#teamNames p {
+	color: #D2F4E7;
 }

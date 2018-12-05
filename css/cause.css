@@ -1,0 +1,25 @@
+body {
+	margin: 0;
+	padding: 0;
+	
+	width: 100%;
+	background-image: url("../images/causes.jpg");
+	background-size: cover;
+	background-origin: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.causesContent {
+	width: 80%;
+	margin: 60vh 0 0 10%;
+
+	padding: 2%;
+	border-radius: 10px;
+	background-color: #e3efeb;
+	color: #162E35;
+}
+
+.causesContent h3 {
+	margin-top: 5%;
+}
