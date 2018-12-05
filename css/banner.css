@@ -1,0 +1,125 @@
+.banner {
+	width: 100%;
+	position: sticky;
+	top: 0;
+
+	z-index: 2;
+
+}
+
+/*---------------------HEADER--------------------------*/
+header {
+	margin: 0;
+	padding: 0;
+
+	height: 10vh;
+
+	background-color: #6EB448;
+}
+
+h1 {
+	margin: 0 0 0 5%;
+	padding: 0;
+
+	width: 80%;
+	
+	line-height: 10vh;
+
+	color: #D2F4E7;
+}
+
+header img {
+	margin-right: 5%;
+	
+	height: 100%;
+	
+	float: right;
+}
+
+/*--------------------NAVIGATION----------------------*/
+
+.navigation {
+	height: 5vh;
+
+	background-color: #7EB560;
+}
+
+.navigation ul {
+	margin: 0;
+	padding: 0;
+	
+	height: 100%;
+
+	overflow: hidden;
+
+	list-style-type: none;
+}
+
+.navigation li {
+	height: 100%;
+	width: 20%;
+
+	float: left;
+}
+
+.navigation li a {
+	height: 100%;
+	
+	display: block;
+	
+	text-align: center;
+	text-decoration: none;
+
+	line-height: 5vh;
+
+	border-right: solid #D2F4E7 1px;
+	color: #D2F4E7;
+}
+
+.navigation li a:hover {
+	background-color: #D2F4E7;
+	color: #162E35;
+}
+
+.navigation #last {
+	border: none;
+}
+
+/*------------------------------------MEDIA QUERIES--------------------------*/
+@media screen and (max-width: 480px) {
+	h1 {
+		font-size: 1em;
+	}
+}
+
+@media screen and (min-width: 480px) {
+	h1 {
+		font-size: 1.25em;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	h1 {
+		font-size: 1.5em;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	h1 {
+		font-size: 2em;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	h1 {
+		font-size: 2.5em;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+
+}
+
+@media screen and (min-width: 1420px) {
+
+}

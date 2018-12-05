@@ -1,0 +1,198 @@
+body {
+	background-image: url("../images/globalwarming.jpg");
+}
+
+/*----------CONTENT BLOCK--------------*/
+.homeContent {
+	margin: 60vh 0 0 0;
+	padding: 0;
+
+	width: 100%;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.homeContentBlock {
+	padding: 2%;
+	border-radius: 10px;
+}
+
+/*---------INFO BLOCK------------*/
+.homeInformation {
+	flex-shrink: 1.3;
+}
+/*---------SHARED--------*/
+#about, #history, #help {
+	margin: 0 0 0 2.5%;
+	
+	width: 90%;
+	
+	background-color: #e3efeb;
+}
+
+#about h2, #history h2, #help h2 {
+	margin: 0;
+	padding: 0;
+
+	color: #162E35;
+}
+
+#about p, #history p {
+	color: #162E35;
+}
+
+/*-------HISTORY AND HELP--------*/
+#history, #help {
+	margin: 2.5% 0 0 2.5%;
+}
+
+/*------------HELP---------*/
+
+#help ol {
+	padding: 2%;
+}
+#help li {
+	text-align: left;
+	margin: 3% 1% 1% 1%;
+	color: #162E35;
+
+	font-size: 1.25em;
+}
+
+/*-----------JOIN-----------*/
+
+#join {
+	margin: 0 2.5% 0 2.5%;
+	
+	width: 90%;
+	height: 80vh;
+	
+	position: sticky;
+	top: 17%;
+
+	background-color: #6EB448;
+	color: #D2F4E7;
+}
+
+#join h2 {
+	text-align: center;
+}
+
+#join form {
+	margin: 5% 1% 1% 1%;
+	padding: 0;
+}
+
+#join label {
+	margin-left: 3%;
+	padding: 0;
+	
+
+	line-height: 2em;
+}
+
+#join input {
+	margin: 0 0 3% 3%;
+	padding: 0;
+	
+	width: 90%;
+	height: 4vh;
+
+	outline: none;
+	border-radius: 3px;
+
+	color: #162e35;
+	border: solid #D2F4E7 1px;
+	background-color: #D2F4E7;
+}
+
+#join input[type=text]:focus {
+	outline: none;
+	background-color: #b5f0da;
+}
+
+#join button {
+	margin: 3% 0 0 20%;
+	
+	height: 5vh;
+	width: 60%;
+
+	border: none;
+	border-radius: 3px;
+
+	background-color: #D2F4E7;
+
+	color: #162E35;
+}
+
+#join button:hover {
+	background-color: #b5f0da;
+}
+
+/*------------------------------------MEDIA QUERIES--------------------------*/
+@media screen and (max-width: 480px) {
+	
+}
+
+@media screen and (min-width: 480px) {
+	#help li {
+		font-size: .8em;
+	}
+
+	#join label, #join input, #join button {
+		font-size: .8em;
+		line-height: 1em;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	#help li {
+		font-size: 1em;
+	}
+
+	#join label{
+		font-size: 1em;
+		line-height: 1.25em;
+	}
+
+	#join input, #join button {
+		font-size: 1em;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	#help li {
+		font-size: 1.125em;
+	}
+
+	#join label{
+		font-size: 1.25em;
+		line-height: 1.5em;
+	}
+
+	#join input, #join button {
+		font-size: 1.125em;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	#help li {
+		font-size: 1.25em;
+	}
+
+	#join input, #join button {
+		font-size: 1.2em;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	#join label {
+		line-height: 2em;
+	}
+}
+
+@media screen and (min-width: 1420px) {
+
+}

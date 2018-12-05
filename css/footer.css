@@ -1,0 +1,63 @@
+footer {
+	margin-top: 3%;
+	
+	height: 30vh;
+	
+	background-color: #162E35;
+}
+
+.footerBlock {
+	margin-top: 2%;
+	height: 65%;
+
+	display: block;
+	
+	color: #D2F4E7;
+}
+
+#infoSource {
+	margin-left: 5%;
+
+	width: 45%;
+	
+	float: left;
+}
+
+#infoSource div {
+	width: 30%;
+	
+	float: left;
+}
+
+.footerBlock div {
+	margin-top: 2%;
+}
+
+#designSource {
+	margin-right: 5%;
+
+	width: 40%;
+	
+	float: right;
+}
+
+.footerBlock a {
+	color: #b5f0da;
+}
+
+.footerBlock a:hover {
+	color: #e8f9f3;
+}
+
+#teamNames {
+	height: 20%;
+
+	clear: left;
+	
+	text-align: center;
+}
+
+#teamNames p {
+	color: #D2F4E7;
+}
+

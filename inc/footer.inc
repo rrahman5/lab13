@@ -13,6 +13,14 @@
 		<div>
 			<a href="https://www.wwf.org.au/what-we-do/climate/causes-of-global-warming">wwf.org</a>
 		</div>
+
+		<div>
+			<a href="https://www.nrdc.org/stories/how-you-can-stop-global-warming">nrdc.org</a>
+		</div>
+
+		<div>
+			<a href="https://climate.nasa.gov/effects/">climate.nasa.gov</a>
+		</div>
 	</section>
 
 	<section class="footerBlock" id="designSource">
