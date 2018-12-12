@@ -25,7 +25,11 @@
 		<input type="text" name="thoughts"><br><br>
 
 		On a scale of 1-5 how much do you think it is a danger to us?
-		<input type="text" name="danger"><br><br>
+		<input type="radio" name="dangerValue" value="1">1
+		<input type="radio" name="dangerValue" value="2">2
+		<input type="radio" name="dangerValue" value="3">3
+		<input type="radio" name="dangerValue" value="4">4
+		<input type="radio" name="dangerValue" value="5">5<br>
 
 		What do you think are the main causes of global warming: (select below)<br>
 		a) Deforestation
