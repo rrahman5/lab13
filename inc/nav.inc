@@ -14,15 +14,6 @@
 
         <li>
             <a href="future.php">The Future of Planet Earth</a>
-        </li>
-
-        <li>
-            <a href="future.php">The Future</a>
-        </li>
-        
-        <li>
-         <a href="admin.php" id="last">Login</a>
-        </li>
-
+        </li>     
     </ul>
 </nav>
