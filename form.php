@@ -12,25 +12,44 @@
     <? php include "inc/nav.inc"; ?>
    
      
-    <h1> Survey questions to ask</h1> 
-    
-<p>
+    <h1>Sign up to Volunteer to Help Curb Global Warming!</h1> 
+		<form method="post" action="connect.php">
 
+		What do you think about global warming?
+		<input type="text" name="thoughts"><br><br>
 
-What do you think about global warming?
+		On a scale of 1-5 how much do you think it is a danger to us?
+		<input type="text" name="danger"><br><br>
 
-On a scale of 1-5 how much do you think it is a danger to us?
+		What do you think are the main causes of global warming: (select below)<br>
+		a) Deforestation
+		<input type="checkbox" name="causes" value="deforestation"><br>
+		b) Farming
+		<input type="checkbox" name="causes" value="farming"><br>
+		c) Rise in temperature
+		<input type="checkbox" name="causes" value="riseTemp"><br>
+		d) Factories
+		<input type="checkbox" name="causes" value="factories"><br><br>
 
-What do you think are the main causes of glboal warming: (select below)
-a) deforestation b) farming c) rise in temperature d) Factories
+		On a scale of 1-5 how much do you care about the world our future generation lives in?
+		<input type="radio" name="careValue" value="1">1
+		<input type="radio" name="careValue" value="2">2
+		<input type="radio" name="careValue" value="3">3
+		<input type="radio" name="careValue" value="4">4
+		<input type="radio" name="careValue" value="5">5<br>
 
-On a scale of 1-5 how much do you care about the world our future generation lives in?
+		On a scale of 1-5 how much do you think the future world will blame us for global warming?
+		<input type="radio" name="blameValue" value="1">1
+		<input type="radio" name="blameValue" value="2">2
+		<input type="radio" name="blameValue" value="3">3
+		<input type="radio" name="blameValue" value="4">4
+		<input type="radio" name="blameValue" value="5">5<br>
 
-On a scale of 1-5 how much do you the future world will blame us for global warming?
+		What can we do to fight global warming?
+		<input type="text" name="ourActions"><br><br>
 
-What can we do to fight global warming?
-
-What can You do to fight global warming?
+		What can You do to fight global warming?
+		<input type="text" name="yourActions"><br><br>
 
 
 </p>
