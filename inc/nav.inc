@@ -14,6 +14,10 @@
 
         <li>
             <a href="future.php">The Future of Planet Earth</a>
-        </li>     
+        </li>
+
+        <li>
+            <a href="form.php" id="last">Sign Up to Volunteer</a>
+        </li>
     </ul>
 </nav>

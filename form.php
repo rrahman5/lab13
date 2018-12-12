@@ -13,7 +13,13 @@
    
      
     <h1>Sign up to Volunteer to Help Curb Global Warming!</h1> 
-		<form method="post" action="connect.php">
+	<form method="post" action="connect.php">
+
+		Name: (required) 
+		<input type="text" name="name"><br><br>
+
+		E-mail: (required)
+		<input type="text" name="email"><br><br>
 
 		What do you think about global warming?
 		<input type="text" name="thoughts"><br><br>
@@ -50,6 +56,10 @@
 
 		What can You do to fight global warming?
 		<input type="text" name="yourActions"><br><br>
+
+		<input type="submit" value="Submit">
+
+	</form>
 
 
 </p>
