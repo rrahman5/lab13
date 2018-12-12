@@ -17,7 +17,11 @@
         </li>
 
         <li>
-            <a href="future.php" id="last">The Future of Planet Earth</a>
+            <a href="future.php" id="last">The Future</a>
+        </li>
+        
+        <li>
+         <a href="admin.php" id="last">Login</a>
         </li>
     </ul>
 </nav>
