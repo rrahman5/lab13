@@ -1,6 +1,10 @@
 <nav class="navigation">
     <ul>
         <li>
+            <a href="login.php">Log In</a>
+        </li>
+
+        <li>
         	<a href="index.php">Home</a>
         </li>
 
