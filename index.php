@@ -55,7 +55,7 @@
 		        <section class="homeJoin">
 		            <div class="homeContentBlock" id="join">
 		                <h2> Want to Help Further? Sign Up Below to Volunteer:</h2>
-		                    <form>
+		                    <form action="/future.php" method="get" target="_blank">
 		                        <label>First name:</label><br>
 		                        <input type="text" name="firstname">
 		                        <br>
@@ -68,7 +68,7 @@
 		                        <label>Where You Currently Live:</label><br>
 		                        <input type="text" name="location">
 		                        <br>
-		                        <button> Join Newsletter </button>
+		                        <button type="submit" value="Submit"> Join Newsletter </button>
 
 		                    </form>
 		            </div>

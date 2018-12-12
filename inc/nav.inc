@@ -17,7 +17,12 @@
         </li>
 
         <li>
-            <a href="form.php" id="last">Volunteer!</a>
+            <a href="future.php">The Future</a>
         </li>
+        
+        <li>
+         <a href="admin.php" id="last">Login</a>
+        </li>
+
     </ul>
 </nav>
