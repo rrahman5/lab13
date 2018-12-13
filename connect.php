@@ -12,10 +12,10 @@
 
 	if (!empty($name)) {
 		if (!empty($email)) {
-			$host = "localhost";
-			$dbusername = "rrahman";
-			$dbpassword = "password";
-			$dbname = "lab13rrahman";
+			$host = "66.147.242.186";
+			$dbusername = "urcscon3_la";
+			$dbpassword = "Coffee1N/!";
+			$dbname = "urcscon3_Los-Angeles";
 
 			$conn = new mysqli ($host, $dbusername, $dbpassword, $dbname);
 			if (mysqli_connect_error()) {

@@ -11,7 +11,6 @@
 	<body>
     <? php include "inc/nav.inc"; ?>
    
-     
     <h1>Sign up to Volunteer to Help Curb Global Warming!</h1> 
 	<form method="post" action="connect.php">
 
