@@ -8,9 +8,10 @@
         	<a href="index.php">Home</a>
         </li>
 
-        <li>
+        <!--<li> TEMPORARY - cannot see the "sign up" nav
         	<a href="causes.php">Causes</a>
     	</li>
+        -->
 
     	<li>
            	<a href="actions.php">Actions</a>
