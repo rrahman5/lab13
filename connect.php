@@ -16,9 +16,10 @@
 			if (mysqli_connect_error()) {
 				die('Connect Error ('. mysqli_connect_errno().')'.mysqli_connect_error());
 			} else {
-				$sql = "INSERT INTO losangeles_volunteer (firstname, lastname, email, location) values ('$firstname', '$lastname', $email', '$location')";
+				$sql = "INSERT INTO losangeles_volunteer (firstname, lastname, email, location) values ('$firstname', '$lastname', '$email', '$location')";
 				if ($conn->query($sql)) {
 					echo "New record was successfully entered!";
+					echo "<a href=/"index.php">Back to the homepage</a>";
 				} else {
 					echo "Error: ".$sql."<br>".$conn->error;
 				}

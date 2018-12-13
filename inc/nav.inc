@@ -8,21 +8,17 @@
         	<a href="index.php">Home</a>
         </li>
 
-        <!--<li> TEMPORARY - cannot see the "sign up" nav
+        <li>
         	<a href="causes.php">Causes</a>
     	</li>
-        -->
 
     	<li>
            	<a href="actions.php">Actions</a>
         </li>
 
         <li>
-            <a href="future.php">The Future of Planet Earth</a>
+            <a href="future.php" id=last>The Future of Planet Earth</a>
         </li>
 
-        <li>
-            <a href="form.php" id="last">Sign Up to Volunteer</a>
-        </li>
     </ul>
 </nav>
