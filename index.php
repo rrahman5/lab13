@@ -55,14 +55,14 @@
 		        <section class="homeJoin">
 		            <div class="homeContentBlock" id="join">
 		                <h2> Want to Help Further? Sign Up Below to Volunteer:</h2>
-		                    <form action="/future.php" method="get" target="_blank">
-		                        <label>First name:</label><br>
+		                    <form method="post"action="connect.php">
+		                        <label>First name: (Required)</label><br>
 		                        <input type="text" name="firstname">
 		                        <br>
 		                        <label>Last name:</label><br>
 		                        <input type="text" name="lastname">
 		                        <br>
-		                        <label>Email:</label><br>
+		                        <label>Email: (Required)</label><br>
 		                        <input type="text" name="email">
 		                        <br>
 		                        <label>Where You Currently Live:</label><br>

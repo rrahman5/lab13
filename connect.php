@@ -1,16 +1,11 @@
 <?php
 	
-	$name = filter_input(INPUT_POST, 'name');
+	$firstname = filter_input(INPUT_POST, 'firstname');
+	$lastname = filter_input(INPUT_POST, 'lastname');
 	$email = filter_input(INPUT_POST, 'email');
-	$thoughts = filter_input(INPUT_POST, 'thoughts');
-	$danger = filter_input(INPUT_POST, 'danger');
-	$causes = filter_input(INPUT_POST, 'causes');
-	$careValue = filter_input(INPUT_POST, 'careValue');
-	$blameValue = filter_input(INPUT_POST, 'blameValue');
-	$ourActions = filter_input(INPUT_POST, 'ourActions');
-	$yourActions = filter_input(INPUT_POST, 'yourActions');
+	$location = filter_input(INPUT_POST, 'location');
 
-	if (!empty($name)) {
+	if (!empty($firstname)) {
 		if (!empty($email)) {
 			$host = "66.147.242.186";
 			$dbusername = "urcscon3_la";
@@ -21,7 +16,7 @@
 			if (mysqli_connect_error()) {
 				die('Connect Error ('. mysqli_connect_errno().')'.mysqli_connect_error());
 			} else {
-				$sql = "INSERT INTO losangeles_volunteer (name, email) values ('$name', '$email')";
+				$sql = "INSERT INTO losangeles_volunteer (firstname, lastname, email, location) values ('$firstname', '$lastname', $email', '$location')";
 				if ($conn->query($sql)) {
 					echo "New record was successfully entered!";
 				} else {
@@ -35,7 +30,7 @@
 			die();
 		}
 	} else {
-		echo "Please enter your name";
+		echo "Please enter your first name";
 		die();
 	}
 ?>
