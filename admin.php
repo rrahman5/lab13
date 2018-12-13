@@ -13,7 +13,7 @@
 	    </div>
 
 		<main>
-            <h1> Welcom "Enter Name" </h1>
+            <h1> Welcome "Enter Name" </h1>
             
 			<div class="admin">
    

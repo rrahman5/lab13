@@ -1,7 +1,7 @@
 <nav class="navigation">
     <ul>
         <li>
-            <a href="login.php">Log In</a>
+            <a href="login.php">Admin Log In</a>
         </li>
 
         <li>
