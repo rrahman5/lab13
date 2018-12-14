@@ -43,10 +43,9 @@ This page uses a F- layout to show the content and guides the user attention to 
  ### Content Pages
  
  For the content pages we used:
- <h2>tags : To show what the main title of that page is and what its about
-  <h3> tags: to show if there are major subpoints under the main title of the page. This is only used for the 
-    Causes Page.
-<p> tags : For all the content we used this tag to display the information to the user    
+h2 tags : To show what the main title of that page is and what its about
+h3 tags: to show if there are major subpoints under the main title of the page. This is only used for the Causes Page.
+p tags : For all the content we used this tag to display the information to the user    
   
 
 ## Choreography
