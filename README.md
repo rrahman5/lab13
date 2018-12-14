@@ -19,7 +19,7 @@ The survey is a sign up form where after reading about Global Warming the reader
 
 - h1: Used this tag in the header section for the title of the website as it tells the user what this website is for
 - nav: Used a nav section for the general navigation of the website and contains all the links. Used general best practices for navigation such as <nav> , <li>, <ul> , <href>
-- footer: The footer contains information about the sources we took our information from. It clearly tells the reader what it is through the <h2> tag that says Information Sources. It also says the names of the creators of the website so that the readers can see it
+- footer: The footer contains information about the sources we took our information from. It clearly tells the reader what it is through the h2 tag that says Information Sources. It also says the names of the creators of the website so that the readers can see it
 
   
 ### Index page
