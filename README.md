@@ -16,9 +16,8 @@ The survey is a sign up form where after reading about Global Warming the reader
 - header: We have  header section that is constant throughout the webpage and tells the reader what website is about
 - section: We used content blocks for the different sections of each page to separate the content for the readers.
   It is used for the Z pattern we are using for most of the website
-
 - h1: Used this tag in the header section for the title of the website as it tells the user what this website is for
-- nav: Used a nav section for the general navigation of the website and contains all the links. Used general best practices for navigation such as <nav> , <li>, <ul> , <href>
+- nav: Used a nav section for the general navigation of the website and contains all the links. Used general best practices for navigation such as nav , li, ul , href
 - footer: The footer contains information about the sources we took our information from. It clearly tells the reader what it is through the h2 tag that says Information Sources. It also says the names of the creators of the website so that the readers can see it
 
   
