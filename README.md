@@ -9,6 +9,10 @@
 
 ## Ontology
 The site is centered as an introduction to Global Warming.  Glboal warming has a description, it has an aboutt section to what it is, it has a history of information. It has a Causes section, a Action section talking about the actions that can be taken, and it has a future section that talks about the future of the earth due to Global Warming.
+It is placed like this because the order of information makes sense and is used in places like Wikipedia.
+Such as firstly readers get an information about the about section of Global Warming and what it is in general, then they
+get information about its history. Then after reading all the user will most likley be curious about causes, then actions that can 
+be taken and then the future. 
 The survey is a sign up form where after reading about Global Warming the reader can sign up to volunteer at the city they live in.
 
 ## Taxonomy
@@ -35,8 +39,11 @@ This page uses a F- layout to show the content and guides the user attention to 
   - Form : to create the whole survey structure in a form
   - input : to get user's input for the various fields of the type
   - input type:  to create different types of buttons such as radio button, checkbox, and text.
-  The text is for getting general information about the user such as name, email, and a general response on what they think
-  about glboal warming. 
+ - First Survey: There is a first survey that asks the user if they would like to volunteer. Its placed on the index page so
+the user can see it the first thing. It consists of input text box to take information from the user. 
+ The text is for getting general information about the user such as name, email. This first survey is the one that is being displayed to the user.
+  A second survey was made to get more detailed information from the user about the user;s thoughts on Global warming.
+  But to the IA's decision it was not included in the actual website, but its on the github and server for view. 
   The radio and checkbox is to get information on how the reader feels about certain things on a range of between 1-5, to
   see what the user feels as more relevant information
  
@@ -50,9 +57,8 @@ p tags : For all the content we used this tag to display the information to the 
 
 ## Choreography
 
-### Pages
-- The optimal experience for the reader is to come to the index page and read the content and then sign up with the volunteer form.
-The Z- layout helps with navigating the user's attention to form quickly. Then the reader can take actions to read the content in all the other navigation items and look at the different content. 
-
+- The optimal experience for the reader is to come to the index page and read the content and then sign up with the volunteer form thus fulfilling the goal of the website.The F - layout helps with navigating the user's attention to form quickly. Then the reader can take actions to read the content in all the other navigation items and look at the different content. 
+The list of actions are: arrive at the index page, scroll down read all the content, then look at the volunteer form to sign up to volunteer against Global warming. Then navigate to the causes page, action page and the future page.
+ The admin nav is placed on the left because the reader is most likley to naturally navigate towards the right then the left.
 
 
