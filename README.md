@@ -43,9 +43,10 @@ This page uses a F- layout to show the content and guides the user attention to 
 the user can see it the first thing. It consists of input text box to take information from the user. 
  The text is for getting general information about the user such as name, email. This first survey is the one that is being displayed to the user.
 Second Survey: A second survey was made to get more detailed information from the user about the user;s thoughts on Global warming
-But to the IA's decision it was not included in the actual website, but its on the github and server for view. 
+But to the IA's decision it was not included in the actual website, but its on the githubfor view. 
 The radio and checkbox is to get information on how the reader feels about certain things on a range of between 1-5, to
-see what the user feels as more relevant information
+see what the user feels as more relevant information. We shifted towards asking users if they would like to volunbteer for Global Warming ratherthanasking too many questions about particular thoughts. The reason for the shift was that users may not want to always
+read all that information and spend so much time filling up a survey. But having a quick volunteer form is very relevant to the content of the website and would be more effective as well.
  
  ### Content Pages
  
